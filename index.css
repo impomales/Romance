@@ -1,0 +1,38 @@
+/* Isaias Pomales */
+/* Fullstack Academy */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffd6d6;
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+}
+
+p {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  color: #5b0000;
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
+
+img {
+  margin-top: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: solid 1.5px #5b0000;
+  box-shadow: 0 2px 8px #333;
+  height: 300px;
+}
+
+button {
+  border-radius: 5px;
+  border: none;
+  background-color: #5b0000;
+  height: 50px;
+  width: 150px;
+  font-size: 15px;
+  color: white;
+}
